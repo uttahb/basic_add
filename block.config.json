@@ -1,0 +1,13 @@
+{
+  "name": "basic_add",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/basic_add",
+    "ssh": "git@github.com:uttahb/basic_add.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
